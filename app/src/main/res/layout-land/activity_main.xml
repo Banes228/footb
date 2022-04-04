@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/cs2"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <TextView
+        android:id="@+id/viewNaviMap"
+        android:layout_width="@dimen/a1"
+        android:layout_height="@dimen/b1"
+        android:textAlignment="center"
+        android:textColor="@color/gray3"
+        android:textSize="@dimen/txtS1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="@dimen/a22"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="@dimen/b2" />
+
+    <TextView
+        android:id="@+id/viewVitalityMap"
+        android:layout_width="@dimen/a1"
+        android:layout_height="@dimen/b1"
+        android:textAlignment="center"
+        android:textColor="@color/gray3"
+        android:textSize="@dimen/txtS1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="@dimen/a21"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="@dimen/b2" />
+
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="@dimen/a3"
+        android:layout_height="@dimen/b3"
+        android:backgroundTint="@color/green"
+        android:onClick="restart"
+        android:text="@string/restart"
+        android:textColor="@color/whiteGray"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="@dimen/b31" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="@dimen/a4"
+        android:layout_height="@dimen/b4"
+        android:text="@string/nameNavi"
+        android:textAlignment="center"
+        android:textColor="@color/gray3"
+        android:textSize="@dimen/txtS1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="@dimen/a51"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="@dimen/b5" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="@dimen/a4"
+        android:layout_height="@dimen/b4"
+        android:text="@string/nameVitality"
+        android:textAlignment="center"
+        android:textColor="@color/gray3"
+        android:textSize="@dimen/txtS1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="@dimen/a52"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="@dimen/b5" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="@dimen/a6"
+        android:layout_height="@dimen/b6"
+        android:text="@string/major"
+        android:textAlignment="center"
+        android:textColor="@color/gray2"
+        android:textSize="@dimen/txtS1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="@dimen/a7"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="@dimen/b7" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="@dimen/x8"
+        android:layout_height="@dimen/y8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="@dimen/a81"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="@dimen/b8"
+        app:srcCompat="@drawable/a327f80de5a7721897cf33391519128d" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="@dimen/x8"
+        android:layout_height="@dimen/y8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="@dimen/a82"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="@dimen/b8"
+        app:srcCompat="@drawable/meta_tag_3de0cb481b9f4bafce770bfa6951950c" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="@dimen/a9"
+        android:layout_height="@dimen/b9"
+        android:backgroundTint="@color/green"
+        android:onClick="mapVitality"
+        android:text="@string/nameMap"
+        android:textColor="@color/whiteGray"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="@dimen/a101"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="@dimen/b10" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="@dimen/a9"
+        android:layout_height="@dimen/b9"
+        android:backgroundTint="@color/green"
+        android:onClick="mapNavi"
+        android:text="@string/nameMap"
+        android:textColor="@color/whiteGray"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="@dimen/a102"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="@dimen/b10" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

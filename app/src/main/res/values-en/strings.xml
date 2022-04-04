@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Tablo</string>
+    <string name="nameNavi">NaVi</string>
+    <string name="nameVitality">Vitality</string>
+    <string name="nameMap">+Map</string>
+    <string name="restart">Restart</string>
+    <string name="major">PGL Major Stockholm 2021</string>
+</resources>

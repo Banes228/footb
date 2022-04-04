@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Tablo</string>
+    <string name="nameNavi">НаВи</string>
+    <string name="nameVitality">Виталити</string>
+    <string name="nameMap">+Карта</string>
+    <string name="restart">Сбросить</string>
+    <string name="major">ЛПГ Мажор Стокгольм 2021</string>
+</resources>

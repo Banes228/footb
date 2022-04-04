@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/cs"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/viewVitalityMap"
+        android:layout_width="@dimen/x1"
+        android:layout_height="@dimen/y1"
+        android:textAlignment="center"
+        android:textColor="@color/gray3"
+        android:textSize="@dimen/txtS1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="@dimen/x21"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="@dimen/y2" />
+
+    <TextView
+        android:id="@+id/viewNaviMap"
+        android:layout_width="@dimen/x1"
+        android:layout_height="@dimen/y1"
+        android:textAlignment="center"
+        android:textColor="@color/gray3"
+        android:textSize="@dimen/txtS1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="@dimen/x22"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="@dimen/y2" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="@dimen/x3"
+        android:layout_height="@dimen/y3"
+        android:text="@string/nameNavi"
+        android:textAlignment="center"
+        android:textColor="@color/gray3"
+        android:textSize="@dimen/txtS1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="@dimen/x41"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="@dimen/y4" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="@dimen/x3"
+        android:layout_height="@dimen/y3"
+        android:text="@string/nameVitality"
+        android:textAlignment="center"
+        android:textColor="@color/gray3"
+        android:textSize="@dimen/txtS1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="@dimen/x42"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="@dimen/y4" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="@dimen/x5"
+        android:layout_height="@dimen/y5"
+        android:text="@string/major"
+        android:textAlignment="center"
+        android:textColor="@color/gray2"
+        android:textSize="@dimen/txtS1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="@dimen/x6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="@dimen/y6" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="@dimen/x7"
+        android:layout_height="@dimen/y7"
+        android:backgroundTint="@color/pink"
+        android:textColor="@color/whiteGray"
+        android:text="@string/restart"
+        android:onClick="restart"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="@dimen/vert" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="@dimen/x8"
+        android:layout_height="@dimen/y8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="@dimen/x91"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="@dimen/y9"
+        app:srcCompat="@drawable/a327f80de5a7721897cf33391519128d" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="@dimen/x8"
+        android:layout_height="@dimen/y8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="@dimen/x92"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="@dimen/y9"
+        app:srcCompat="@drawable/meta_tag_3de0cb481b9f4bafce770bfa6951950c" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="@dimen/x10"
+        android:layout_height="@dimen/y10"
+        android:backgroundTint="@color/pink"
+        android:textColor="@color/whiteGray"
+        android:text="@string/nameMap"
+        android:onClick="mapNavi"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="@dimen/x101"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="@dimen/y101" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="@dimen/x10"
+        android:layout_height="@dimen/y10"
+        android:backgroundTint="@color/pink"
+        android:textColor="@color/whiteGray"
+        android:text="@string/nameMap"
+        android:onClick="mapVitality"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="@dimen/x102"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="@dimen/y101" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

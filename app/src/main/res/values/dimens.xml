@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="x1">139dp</dimen>
+    <dimen name="y1">141dp</dimen>
+    <dimen name="txtS1">25sp</dimen>
+    <dimen name="x21">0.818</dimen>
+    <dimen name="x22">0.181</dimen>
+    <dimen name="y2">0.745</dimen>
+    <dimen name="x3">123dp</dimen>
+    <dimen name="y3">71dp</dimen>
+    <dimen name="x41">0.166</dimen>
+    <dimen name="x42">0.89</dimen>
+    <dimen name="y4">0.333</dimen>
+    <dimen name="x5">350dp</dimen>
+    <dimen name="y5">50dp</dimen>
+    <dimen name="x6">0.737</dimen>
+    <dimen name="y6">0.021</dimen>
+    <dimen name="x7">301dp</dimen>
+    <dimen name="y7">76dp</dimen>
+    <dimen name="vert">0.93</dimen>
+    <dimen name="x8">150dp</dimen>
+    <dimen name="y8">150dp</dimen>
+    <dimen name="x91">0.138</dimen>
+    <dimen name="x92">0.875</dimen>
+    <dimen name="y9">0.135</dimen>
+    <dimen name="x10">100dp</dimen>
+    <dimen name="y10">90dp</dimen>
+    <dimen name="x101">0.226</dimen>
+    <dimen name="x102">0.773</dimen>
+    <dimen name="y101">0.5</dimen>
+    <dimen name="a1">98dp</dimen>
+    <dimen name="b1">103dp</dimen>
+    <dimen name="a21">0.93</dimen>
+    <dimen name="a22">0.059</dimen>
+    <dimen name="b2">0.941</dimen>
+    <dimen name="a3">169dp</dimen>
+    <dimen name="b3">93dp</dimen>
+    <dimen name="b31">0.993</dimen>
+    <dimen name="a4">123dp</dimen>
+    <dimen name="b4">71dp</dimen>
+    <dimen name="a51">0.024</dimen>
+    <dimen name="a52">0.96</dimen>
+    <dimen name="b5">0.531</dimen>
+    <dimen name="a6">332dp</dimen>
+    <dimen name="b6">60dp</dimen>
+    <dimen name="a7">0.498</dimen>
+    <dimen name="b7">0</dimen>
+    <dimen name="a81">0.025</dimen>
+    <dimen name="a82">0.974</dimen>
+    <dimen name="b8">0.0</dimen>
+    <dimen name="a9">160dp</dimen>
+    <dimen name="b9">75dp</dimen>
+    <dimen name="a101">0.731</dimen>
+    <dimen name="a102">0.26</dimen>
+    <dimen name="b10">0.484</dimen>
+
+
+
+
+</resources>
